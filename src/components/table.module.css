@@ -1,0 +1,29 @@
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.table>thead>tr>th {
+  background-color: #3c3834;
+  color: #f1f1f1;
+  vertical-align: bottom;
+  border-top: 1px solid #34302D;
+  border-bottom: 2px solid #34302D;
+  padding: 8px;
+  text-align: left;
+}
+
+.table>tbody>tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+.table>tbody>tr>th,
+.table>tbody>tr>td {
+  border-top: 1px solid #34302D;
+  padding: 8px;
+  line-height: 1.428571429;
+  vertical-align: top;
+  text-align: left;
+}
